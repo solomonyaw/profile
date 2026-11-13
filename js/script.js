@@ -422,7 +422,11 @@ function initContactForm() {
     feedback.innerHTML = `
       <strong>Message received in demonstration mode!</strong><br>
       Thank you, ${escapeHtml(name)}. Because this personal portfolio is currently hosted as a static showcase,
-      you can also connect directly via 
+      please send your message directly to 
+      <a href="mailto:adeklosolomon@gmail.com" style="color: #F5C451; text-decoration: underline;">adeklosolomon@gmail.com</a>, 
+      <a href="mailto:syadeklo@st.ug.edu.gh" style="color: #F5C451; text-decoration: underline;">syadeklo@st.ug.edu.gh</a>, or 
+      <a href="mailto:sadeklo@st.vvu.edu.gh" style="color: #F5C451; text-decoration: underline;">sadeklo@st.vvu.edu.gh</a>, 
+      or connect via 
       <a href="https://www.linkedin.com/in/solomon-adeklo-1501453bb/" target="_blank" rel="noopener noreferrer" style="color: #F5C451; text-decoration: underline;">LinkedIn</a>, 
       <a href="https://github.com/solomonyaw" target="_blank" rel="noopener noreferrer" style="color: #F5C451; text-decoration: underline;">GitHub</a>, or 
       <a href="https://x.com/solomonyaw2" target="_blank" rel="noopener noreferrer" style="color: #F5C451; text-decoration: underline;">X (@solomonyaw2)</a>.

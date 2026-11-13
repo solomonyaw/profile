@@ -1839,6 +1839,53 @@ ul, ol {
   color: var(--color-white);
 }
 
+.contact-email-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: rgba(13, 34, 77, 0.7);
+  border: 1px solid var(--color-border-dark);
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  color: var(--color-white);
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.contact-email-card:hover {
+  background: rgba(23, 37, 106, 0.85);
+  border-color: var(--color-gold);
+}
+
+.contact-email-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.contact-email-link {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  word-break: break-word;
+}
+
+.contact-email-link:hover,
+.contact-email-link:focus-visible {
+  color: var(--color-gold);
+  text-decoration: underline;
+}
+
+.contact-email-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
 .contact-form-card {
   background: rgba(13, 34, 77, 0.85);
   border: 1px solid var(--color-border-dark);
